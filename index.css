@@ -67,9 +67,15 @@ body {
     top: 0;
     left: 240px;
 }
-.body .body-content {
-    font-size: 30px;
+.body .body-title {
+    font-size: 28px;
     font-weight: bold;
+
+    background-color: gray;
+    height: 50px;
+    padding: 10px 0 10px 10px;
+}
+.body .body-content {
     padding-left: 10px;
 }
 
