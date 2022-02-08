@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>Base</title>
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <div class="sidebar">
+            <div class="logo">
+                <div class="logo_title">My Business</div>
+                <i class='bx bx-menu nav_btn'></i>
+            </div>
+            
+            <ul class="nav">
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-home'></i>
+                        <span class="link">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-book-open'></i>
+                        <span class="link">Learn</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-store'></i>
+                        <span class="link">Shop</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-basket'></i>
+                        <span class="link">Cart</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-user-account'></i>
+                        <span class="link">Account</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!--<div class="container-grid">
+            <div class="cg-content">
+                <img src="#" alt="Image">
+                <p>$24.99 <a href="#" class="btn btn-primary">Add</a></p>
+            </div>
+        </div>-->
+    
+
+
+
+        <script>
+            const sidebar = document.querySelector('.sidebar');
+            const button = document.querySelector('.nav_btn');
+            
+            button.onclick = function() {
+                sidebar.classList.toggle('active');
+            }
+
+
+
+        </script>
+    </body>
+
+</html>
