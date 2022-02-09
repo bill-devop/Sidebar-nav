@@ -63,12 +63,17 @@ body {
 }
 
 .body {
-    position: relative;
+    position: absolute;
     width: calc(100% - 240px);
     top: 0;
     left: 240px;
 }
-.body .body-title {
+
+.body.active {
+    width: calc(100% - 50px);
+    left: 50px;
+}
+.body-title {
     font-size: 28px;
     font-weight: bold;
 

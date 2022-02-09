@@ -62,9 +62,11 @@
         <script>
             const sidebar = document.querySelector('.sidebar');
             const button = document.querySelector('.nav_btn');
+            const body = document.querySelector('.body');
             
             button.onclick = function() {
                 sidebar.classList.toggle('active');
+                body.classList.toggle('active');
             }
 
 
